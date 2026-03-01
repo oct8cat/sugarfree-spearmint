@@ -1,0 +1,33 @@
+{
+  "name": "sugarfree-spearmint",
+  "description": "Orbital math utilitites",
+  "version": "1.0.0",
+  "keywords": [
+    "spaaaace"
+  ],
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc -b"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oct8cat/sugarfree-spearmint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oct8cat/sugarfree-spearmint/issues"
+  },
+  "homepage": "https://github.com/oct8cat/sugarfree-spearmint#readme",
+  "author": "Sergey Elsukov <oct8cat@gmail.com>",
+  "license": "ISC",
+  "prettier": {
+    "printWidth": 120
+  }
+}
